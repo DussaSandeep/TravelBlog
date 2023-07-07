@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gallery</title>
+    <link rel="stylesheet" href="../CSS/18Navbar.css">
+    <link rel="stylesheet" href="../CSS/Gallery.css">
+    <script src="../JavaScript/Gallery.js"></script>
+</head>
+<body onload="colo()">
+    <div id="a">
+        <h1 id="heading">Travelled Image Gallery</h1>
+    </div>
+    <div id="bigscreen" class="fullScreenimg" style="display: none;" onclick="imgV()">
+        <img id="fullImg">
+        <h1 id="imgHeading">Heading</h1>
+        <p id="imgPara">
+        </p>
+    </div>
+    <div  id="navbar">
+        <ul id="mainlist">
+            <li class="li"><a href="../HTML/index.html">Home</a></li>
+            <li class="li" id="sublistplace">Places
+                <ul id="sublist">
+                    <li class="sli">India</li>
+                    <li class="sli"><a href="./Gallery2.html">Dubai</a></li>
+                    <li class="sli"><a href="./Gallery3.html">Srilanka</a></li>
+                    <li class="sli"><a href="./Gallery4.html">Singapore</a></li>
+                    <li class="sli"><a href="./Gallery5.html">Malaysia</a></li>
+                </ul>
+            </li>
+            <li class="li"><a href="#"><a href="./aboutus.html">Info</a></li>
+            <li class="li"><a href="./23Login.html">Logout</a></li>
+        </ul>
+    </div>
+    <div class="bodyOfGallery">
+        <img src="../Asset/Images/a.jpg" onclick="imgK(this.src,'Elephant','Elephants are the largest existing land animals. Three living species are currently recognised: the African bush elephant , the African forest elephant , and the Asian elephant. ')">
+        <img src="../Asset/Images/b.jpg" onclick="imgK(this.src,'Dogs','Dogs were probably the first tame animals. They have accompanied humans for at least 20,000 years and possibly as many as 40,000. Scientists generally agree that all dogs, domestic and wild, share a common wolf ancestor; at some point grey wolves and dogs went on their separate evolutionary ways. ')">
+        <img src="../Asset/Images/c.jpg" onclick="imgK(this.src,'Horse','The horse ( Equus ferus caballus ) is a domesticated, one-toed, hoofed mammal. It belongs to the taxonomic family Equidae and is one of two extant subspecies of Equus ferus. ')">
+        <img src="../Asset/Images/d.jpg" onclick="imgK(this.src,'Tiger','The tiger ( Panthera tigris) is the largest living cat species and a member of the genus Panthera. It is most recognisable for its dark vertical stripes on orange-brown fur with a lighter underside.')">
+        <img src="../Asset/Images/e.jpg" onclick="imgK(this.src,'Cat','The cat ( Felis catus, and when wild Felis catus silvestris, lit. Woodland cat) is a domestic species of small carnivorous mammal. ')">
+        <img src="../Asset/Images/f.jpg" onclick="imgK(this.src,'Vulture','A vulture is a bird of prey that scavenges on carrion. There are 23 extant species of vulture (including Condors). Old World vultures include 16 living species native to Europe, Africa, and Asia;')">
+        <img src="../Asset/Images/g.jpg" onclick="imgK(this.src,'Owl','Owls are birds from the order Strigiformes, which includes over 200 species of mostly solitary and nocturnal birds of prey typified by an upright stance, a large, broad head, binocular vision , binaural hearing, sharp talons, and feathers adapted for silent flight.')">
+        <img src="../Asset/Images/h.jpg" onclick="imgK(this.src,'Lion','The lion ( Panthera leo) is a large cat of the genus Panthera native to Africa and India. It has a muscular, broad-chested body, short, rounded head, round ears, and a hairy tuft at the end of its tail. ')">
+    </div>
+</body>
+</html>
